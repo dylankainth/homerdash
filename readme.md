@@ -10,12 +10,12 @@
 # Usage
 
  1.Download the entire repo as a `.zip`;
-	 
+	 ![enter image description here](https://raw.githubusercontent.com/DylanK46/homerdash/master/media%20%28ignore%29/DylanK46_homerdash_%20Convert%20your%20Homer%20Dashboard%20to%20Dashmachine%20by%20inputting%20the%20yaml.%20-%20Google%20Chrome%202020-12-18%2023-22-24%20%28online-video-cutter.com%29.gif)
  2.Extract that `.zip` file to make it a folder;
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2NDI3ODcsODc4MTA3NzQ2LC04OTc0Mz
-Q4NTldfQ==
+eyJoaXN0b3J5IjpbLTI0MDU3MjgxMiw3MTY0Mjc4Nyw4NzgxMD
+c3NDYsLTg5NzQzNDg1OV19
 -->
