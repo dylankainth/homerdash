@@ -12,9 +12,11 @@
 
 # Usage
 
- 1.Download the entire repo as a .zip;
+ 1.Download the entire repo as a `.zip`;
+ 2.Extract that `.zip` file.
+ 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTk3Njg3OSwtODk3NDM0ODU5XX0=
+eyJoaXN0b3J5IjpbODc4MTA3NzQ2LC04OTc0MzQ4NTldfQ==
 -->
