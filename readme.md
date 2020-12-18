@@ -15,10 +15,11 @@
 
  2. Extract that `.zip` file to make it a folder;
  3. In that folder, open the file called [homerdash](https://github.com/DylanK46/homerdash)/[sampledata](https://github.com/DylanK46/homerdash/tree/master/sampledata)/[homer](https://github.com/DylanK46/homerdash/tree/master/sampledata/homer)/[**config.yml**](https://github.com/DylanK46/homerdash/blob/master/sampledata/homer/config.yml)
- 4. an
+ and replace in your homer YAML.
+ 4. Head back up to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk1MTIwMCw3MTY0Mjc4Nyw4NzgxMD
-c3NDYsLTg5NzQzNDg1OV19
+eyJoaXN0b3J5IjpbLTEwODEzNDI3MDUsNzE2NDI3ODcsODc4MT
+A3NzQ2LC04OTc0MzQ4NTldfQ==
 -->
