@@ -1,1 +1,7 @@
 [SETTINGS]
+theme = dark
+custom_app_title = Dylan's Server
+sidebar_default = open
+background = https://www.colorhexa.com/131313.png
+
+ 

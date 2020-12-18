@@ -11,6 +11,12 @@ def formdatastructure():
 
 formdatastructure()
 
+def convertdatastructure(key,value,newline = True):
+    if newline==True:
+        return(key+" = "+value+"\n")
+    else:
+        return(key+" = "+value)
+
 class write:
     
     global sampleoutputfile
@@ -20,8 +26,12 @@ class write:
         sampleoutputfile = open("main/sampleoutput.yaml", "w")
 
     def settings(): 
-        sampleoutputfile.write("[SETTINGS]")
-        
+        sampleoutputfile.write("[SETTINGS]\n")
+        sampleoutputfile.write(   convertdatastructure(   "theme"               ,datastructure["theme"]    ))
+        sampleoutputfile.write(   convertdatastructure(   "custom_app_title"    ,datastructure["title"]    ))
+        sampleoutputfile.write(   convertdatastructure(   "sidebar_default"     ,"open"    ))
+        sampleoutputfile.write(   convertdatastructure(   "background"          ,"https://www.colorhexa.com/"+datastructure["colors"]["dark"]["background"][1:]+".png"     ))
+        sampleoutputfile.write("\n \n")
     
     def finish():
         sampleoutputfile.close()
