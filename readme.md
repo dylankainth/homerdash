@@ -14,11 +14,11 @@
 ![enter image description here](https://raw.githubusercontent.com/DylanK46/homerdash/master/media%20%28ignore%29/DylanK46_homerdash_%20Convert%20your%20Homer%20Dashboard%20to%20Dashmachine%20by%20inputting%20the%20yaml.%20-%20Google%20Chrome%202020-12-18%2023-22-24%20%28online-video-cutter.com%29.gif)
 
  2. Extract that `.zip` file to make it a folder;
- 3. In that folder, open the file called `"sampledata/homer/ 
- 4. 
+ 3. In that folder, open the file called [homerdash](https://github.com/DylanK46/homerdash)/[sampledata](https://github.com/DylanK46/homerdash/tree/master/sampledata)/[homer](https://github.com/DylanK46/homerdash/tree/master/sampledata/homer)/[**config.yml**](https://github.com/DylanK46/homerdash/blob/master/sampledata/homer/config.yml)
+ 4. an
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTEzOTA4MCw3MTY0Mjc4Nyw4NzgxMD
+eyJoaXN0b3J5IjpbLTEwMTk1MTIwMCw3MTY0Mjc4Nyw4NzgxMD
 c3NDYsLTg5NzQzNDg1OV19
 -->
