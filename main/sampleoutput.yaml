@@ -5,6 +5,7 @@ sidebar_default = open
 tags_expanded = True
 accent = blue
 background = https://www.colorhexa.com/131313.png
+tags = {"name": "Storage", "icon": "fas fa-folder"},{"name": "Utilities", "icon": "fas fa-tools"},{"name": "Automation", "icon": "fas fa-magic"},{"name": "Minecraft", "icon": "fas fa-gamepad"},{"name": "Smart Home", "icon": "fas fa-home"},{"name": "Miscellaneous", "icon": "fas fa-question-circle"}
 
  
 [Owncloud]

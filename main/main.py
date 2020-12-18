@@ -1,4 +1,5 @@
 import yaml
+import json
 from urllib.parse import urlparse
 
 def formdatastructure():
@@ -34,9 +35,17 @@ class write:
         sampleoutputfile.write(   convertdatastructure(   "tags_expanded"       ,"True"    ))
         sampleoutputfile.write(   convertdatastructure(   "accent"       ,"blue"    ))
         sampleoutputfile.write(   convertdatastructure(   "background"          ,"https://www.colorhexa.com/"+datastructure["colors"]["dark"]["background"][1:]+".png"     ))
-        sampleoutputfile.write("\n \n")
-    
-    #def users():
+
+        #This section is for icons. Unfortunately, Homer uses Font-Awesome while DashMachine uses Google Material Design Icons.
+        #Therefore, it is hard to translate. 
+        #This code gives a start, and is able to translate some Font-Awesome to Material Design icons BY CHANCE ALONE.
+
+        #icondictionary=""
+        #for classification in datastructure["services"]:
+            #icondefinition = {"name": classification["name"],"icon": classification["icon"]}
+            #icondictionary = icondictionary+json.dumps(icondefinition)+","
+        #sampleoutputfile.write(   convertdatastructure(    "tags"               ,(icondictionary[0:-1])))
+        #sampleoutputfile.write("\n \n")
 
     def cards():
         for classification in datastructure["services"]:
