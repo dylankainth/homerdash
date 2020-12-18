@@ -17,10 +17,14 @@
  3. In that folder, open the file called [homerdash](https://github.com/DylanK46/homerdash)/[sampledata](https://github.com/DylanK46/homerdash/tree/master/sampledata)/[homer](https://github.com/DylanK46/homerdash/tree/master/sampledata/homer)/[**config.yml**](https://github.com/DylanK46/homerdash/blob/master/sampledata/homer/config.yml)
  and replace in your homer YAML.
  4. Head back up to 
- [homerdash](https://github.com/DylanK46/homerdash)/[main](https://github.com/DylanK46/homerdash/tree/master/main)/[**main.py**](https://github.com/DylanK46/homerdash/blob/master/main/main.py)
+ [homerdash](https://github.com/DylanK46/homerdash)/[main](https://github.com/DylanK46/homerdash/tree/master/main)/[**main.py**](https://github.com/DylanK46/homerdash/blob/master/main/main.py) 
+ and run that python file
+ 5. Your output will be at
+ [homerdash](https://github.com/DylanK46/homerdash)/[sampledata](https://github.com/DylanK46/homerdash/tree/master/sampledata)/[dashmachine](https://github.com/DylanK46/homerdash/tree/master/sampledata/dashmachine)/**config.ini**
+ 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTE5NTEyMSw3MTY0Mjc4Nyw4NzgxMD
-c3NDYsLTg5NzQzNDg1OV19
+eyJoaXN0b3J5IjpbMTYyNjE3MDI4NCwxNDYxMTk1MTIxLDcxNj
+QyNzg3LDg3ODEwNzc0NiwtODk3NDM0ODU5XX0=
 -->
