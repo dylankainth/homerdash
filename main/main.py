@@ -2,9 +2,13 @@ import yaml
 import json
 from urllib.parse import urlparse
 
+homerfiledirectory = "sampledata/homer/"
+dashmachinefilleddirectory = "sampledata/dashmachine/"
+
+
 def formdatastructure():
-    #takes in the data from /main/sampleinput.yaml
-    sampleinputfile = open("main/sampleinput.yaml", "r")
+    #takes in the data from the variable-declared directory
+    sampleinputfile = open(homerfiledirectory+"config.yml", "r")
 
     #declares the datastructure in <dict> format using a global;
     #parses the yaml into dict
@@ -25,7 +29,7 @@ class write:
 
     def init():
         global sampleoutputfile
-        sampleoutputfile = open("main/sampleoutput.yaml", "w")
+        sampleoutputfile = open(dashmachinefilleddirectory+"config.ini", "w")
 
     def settings(): 
         sampleoutputfile.write("[Settings]\n")
