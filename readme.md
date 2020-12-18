@@ -4,10 +4,8 @@
 
 [Homer](https://github.com/bastienwirtz/homer) is a simple static  *HOM*epage for your serv*ER*  to keep your services on hand, customisable from a simple  `.yaml`  configuration file.
 
-wheras
-
-
+Dashmachine is another application bookmark dashboard, with fun features and is configurable fro
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUwNjk1ODAsLTg5NzQzNDg1OV19
+eyJoaXN0b3J5IjpbLTg3MTU4MTIxOSwtODk3NDM0ODU5XX0=
 -->
