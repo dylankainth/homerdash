@@ -27,10 +27,12 @@ class write:
         sampleoutputfile = open("main/sampleoutput.yaml", "w")
 
     def settings(): 
-        sampleoutputfile.write("[SETTINGS]\n")
+        sampleoutputfile.write("[Settings]\n")
         sampleoutputfile.write(   convertdatastructure(   "theme"               ,datastructure["theme"]    ))
         sampleoutputfile.write(   convertdatastructure(   "custom_app_title"    ,datastructure["title"]    ))
         sampleoutputfile.write(   convertdatastructure(   "sidebar_default"     ,"open"    ))
+        sampleoutputfile.write(   convertdatastructure(   "tags_expanded"       ,"True"    ))
+        sampleoutputfile.write(   convertdatastructure(   "accent"       ,"blue"    ))
         sampleoutputfile.write(   convertdatastructure(   "background"          ,"https://www.colorhexa.com/"+datastructure["colors"]["dark"]["background"][1:]+".png"     ))
         sampleoutputfile.write("\n \n")
     
@@ -44,15 +46,18 @@ class write:
                 sampleoutputfile.write(   convertdatastructure(   "url"               ,((urlparse(item["url"])).netloc)+((urlparse(item["url"])).path)))
                 sampleoutputfile.write(   convertdatastructure(   "description"               ,item["subtitle"]    ))
                 sampleoutputfile.write(   convertdatastructure(   "open_in"               , "new_tab"    ))
-                sampleoutputfile.write(   convertdatastructure(   "icon"               ,item["logo"]    ))
+                sampleoutputfile.write(   convertdatastructure(   "icon"               , "static/images/icons/"+(item["logo"]).lstrip("assets/tools/")    ))
+                sampleoutputfile.write(   convertdatastructure(   "sidebar_icon"               , "static/images/icons/"+(item["logo"]).lstrip("assets/tools/")    ))
+                sampleoutputfile.write(   convertdatastructure(   "tags"               , classification["name"]))
                 #url queries, parameters and fragments are not supported, but they could be by ajusting the code above
-                print((item["logo"]).lstrip("assets/tools/"))
                 #sampleoutputfile.write(   convertdatastructure(   "url"    ,(urlparse(item["url"]))    ))
-
+                sampleoutputfile.write("\n")
+            sampleoutputfile.write("\n\n")
 
     def finish():
         sampleoutputfile.close()
 
 write.init()
-#write.settings()
+write.settings()
 write.cards()
+write.finish()

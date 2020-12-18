@@ -1,102 +1,174 @@
+[Settings]
+theme = dark
+custom_app_title = Dylan's Server
+sidebar_default = open
+tags_expanded = True
+accent = blue
+background = https://www.colorhexa.com/131313.png
+
+ 
 [Owncloud]
 prefix = http://
 url = www.kainth.tk:5006
 description = Self-Hosted Dropbox Alternative
 open_in = new_tab
-icon = assets/tools/owncloud.png
+icon = static/images/icons/wncloud.png
+sidebar_icon = static/images/icons/wncloud.png
+tags = Storage
+
 [Plex]
 prefix = http://
 url = www.kainth.tk:32400
 description = Self-Hosted Media Server
 open_in = new_tab
-icon = assets/tools/plex.png
+icon = static/images/icons/plex.png
+sidebar_icon = static/images/icons/plex.png
+tags = Storage
+
 [File Explorer]
 prefix = http://
 url = www.kainth.tk:32768
 description = Server File Explorer
 open_in = new_tab
-icon = assets/tools/filebrowser.png
+icon = static/images/icons/filebrowser.png
+sidebar_icon = static/images/icons/filebrowser.png
+tags = Storage
+
 [Jupyter]
 prefix = http://
 url = kainth.tk:8888/
 description = Data Science IDE
 open_in = new_tab
-icon = assets/tools/jupyter.png
+icon = static/images/icons/jupyter.png
+sidebar_icon = static/images/icons/jupyter.png
+tags = Storage
+
+
+
 [Netdata]
 prefix = http://
 url = kainth.tk:19999/
 description = Real-Time Server Statistics Viewer
 open_in = new_tab
-icon = assets/tools/netdata.png
+icon = static/images/icons/netdata.png
+sidebar_icon = static/images/icons/netdata.png
+tags = Utilities
+
 [Theia]
 prefix = http://
 url = kainth.tk:3000/
 description = Visual Studio Code in a browser
 open_in = new_tab
-icon = assets/tools/theia.svg
+icon = static/images/icons/heia.svg
+sidebar_icon = static/images/icons/heia.svg
+tags = Utilities
+
 [Sky]
 prefix = http://
 url = kainth.tk:9012/
 description = Router Settings
 open_in = new_tab
-icon = assets/tools/sky.png
+icon = static/images/icons/ky.png
+sidebar_icon = static/images/icons/ky.png
+tags = Utilities
+
 [Portainer]
 prefix = http://
 url = www.kainth.tk:9000
 description = Online Docker Container Manager
 open_in = new_tab
-icon = assets/tools/portainer.png
+icon = static/images/icons/portainer.png
+sidebar_icon = static/images/icons/portainer.png
+tags = Utilities
+
 [Webmin]
 prefix = https://
 url = kainth.tk:10000
 description = Online UNIX Server Manager
 open_in = new_tab
-icon = assets/tools/webmin.png
+icon = static/images/icons/webmin.png
+sidebar_icon = static/images/icons/webmin.png
+tags = Utilities
+
 [Transmisisson]
 prefix = http://
 url = kainth.tk:9091
 description = Free Bittorrent Client
 open_in = new_tab
-icon = assets/tools/transmission.png
+icon = static/images/icons/ransmission.png
+sidebar_icon = static/images/icons/ransmission.png
+tags = Utilities
+
+
+
 [Node-Red]
 prefix = http://
 url = www.kainth.tk:1880
 description = IOT Flow Based Development Tool
 open_in = new_tab
-icon = assets/tools/nodered.png
+icon = static/images/icons/nodered.png
+sidebar_icon = static/images/icons/nodered.png
+tags = Automation
+
 [n8n.io]
 prefix = http://
 url = kainth.tk:5678/
 description = Web-based Workflow Automation
 open_in = new_tab
-icon = assets/tools/n8n.png
+icon = static/images/icons/n8n.png
+sidebar_icon = static/images/icons/n8n.png
+tags = Automation
+
+
+
 [Dynmap]
 prefix = http://
 url = kainth.tk:25570
 description = Minecraft Dynamic Map
 open_in = new_tab
-icon = assets/tools/Dynmap.png
+icon = static/images/icons/Dynmap.png
+sidebar_icon = static/images/icons/Dynmap.png
+tags = Minecraft
+
+
+
 [Home Assistant]
 prefix = https://
 url = www.kainth.tk:8123
 description = Home Automation Platform
 open_in = new_tab
-icon = assets/tools/homeassistant.png
+icon = static/images/icons/homeassistant.png
+sidebar_icon = static/images/icons/homeassistant.png
+tags = Smart Home
+
 [Pi-Hole]
 prefix = http://
 url = www.kainth.tk:90/admin/
 description = Network Wide Ad-Blocker
 open_in = new_tab
-icon = assets/tools/pihole.png
+icon = static/images/icons/pihole.png
+sidebar_icon = static/images/icons/pihole.png
+tags = Smart Home
+
+
+
 [Ghost]
 prefix = http://
 url = kainth.tk/ghost
 description = Self-Hosted Blog
 open_in = new_tab
-icon = assets/tools/ghost.png
+icon = static/images/icons/ghost.png
+sidebar_icon = static/images/icons/ghost.png
+tags = Miscellaneous
+
 [Folding@Home]
 prefix = http://
 url = www.kainth.tk:7396/
 description = Protein Fold on your PC
 open_in = new_tab
-icon = assets/tools/folding.png
+icon = static/images/icons/folding.png
+sidebar_icon = static/images/icons/folding.png
+tags = Miscellaneous
+
+
+
