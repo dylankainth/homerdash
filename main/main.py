@@ -1,4 +1,5 @@
 import yaml
+from urllib.parse import urlparse
 
 def formdatastructure():
     #takes in the data from /main/sampleinput.yaml
@@ -36,12 +37,22 @@ class write:
     #def users():
 
     def cards():
-        for name in datastructure["services"]:
-            print(name)
+        for classification in datastructure["services"]:
+            for item in classification["items"]:
+                sampleoutputfile.write("["+item["name"]+"]\n")
+                sampleoutputfile.write(   convertdatastructure(   "prefix"               ,((urlparse(item["url"])).scheme)+"://"    ))
+                sampleoutputfile.write(   convertdatastructure(   "url"               ,((urlparse(item["url"])).netloc)+((urlparse(item["url"])).path)))
+                sampleoutputfile.write(   convertdatastructure(   "description"               ,item["subtitle"]    ))
+                sampleoutputfile.write(   convertdatastructure(   "open_in"               , "new_tab"    ))
+                sampleoutputfile.write(   convertdatastructure(   "icon"               ,item["logo"]    ))
+                #url queries, parameters and fragments are not supported, but they could be by ajusting the code above
+                print((item["logo"]).lstrip("assets/tools/"))
+                #sampleoutputfile.write(   convertdatastructure(   "url"    ,(urlparse(item["url"]))    ))
+
 
     def finish():
         sampleoutputfile.close()
 
-#write.init()
+write.init()
 #write.settings()
 write.cards()

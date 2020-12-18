@@ -1,7 +1,102 @@
-[SETTINGS]
-theme = dark
-custom_app_title = Dylan's Server
-sidebar_default = open
-background = https://www.colorhexa.com/131313.png
-
- 
+[Owncloud]
+prefix = http://
+url = www.kainth.tk:5006
+description = Self-Hosted Dropbox Alternative
+open_in = new_tab
+icon = assets/tools/owncloud.png
+[Plex]
+prefix = http://
+url = www.kainth.tk:32400
+description = Self-Hosted Media Server
+open_in = new_tab
+icon = assets/tools/plex.png
+[File Explorer]
+prefix = http://
+url = www.kainth.tk:32768
+description = Server File Explorer
+open_in = new_tab
+icon = assets/tools/filebrowser.png
+[Jupyter]
+prefix = http://
+url = kainth.tk:8888/
+description = Data Science IDE
+open_in = new_tab
+icon = assets/tools/jupyter.png
+[Netdata]
+prefix = http://
+url = kainth.tk:19999/
+description = Real-Time Server Statistics Viewer
+open_in = new_tab
+icon = assets/tools/netdata.png
+[Theia]
+prefix = http://
+url = kainth.tk:3000/
+description = Visual Studio Code in a browser
+open_in = new_tab
+icon = assets/tools/theia.svg
+[Sky]
+prefix = http://
+url = kainth.tk:9012/
+description = Router Settings
+open_in = new_tab
+icon = assets/tools/sky.png
+[Portainer]
+prefix = http://
+url = www.kainth.tk:9000
+description = Online Docker Container Manager
+open_in = new_tab
+icon = assets/tools/portainer.png
+[Webmin]
+prefix = https://
+url = kainth.tk:10000
+description = Online UNIX Server Manager
+open_in = new_tab
+icon = assets/tools/webmin.png
+[Transmisisson]
+prefix = http://
+url = kainth.tk:9091
+description = Free Bittorrent Client
+open_in = new_tab
+icon = assets/tools/transmission.png
+[Node-Red]
+prefix = http://
+url = www.kainth.tk:1880
+description = IOT Flow Based Development Tool
+open_in = new_tab
+icon = assets/tools/nodered.png
+[n8n.io]
+prefix = http://
+url = kainth.tk:5678/
+description = Web-based Workflow Automation
+open_in = new_tab
+icon = assets/tools/n8n.png
+[Dynmap]
+prefix = http://
+url = kainth.tk:25570
+description = Minecraft Dynamic Map
+open_in = new_tab
+icon = assets/tools/Dynmap.png
+[Home Assistant]
+prefix = https://
+url = www.kainth.tk:8123
+description = Home Automation Platform
+open_in = new_tab
+icon = assets/tools/homeassistant.png
+[Pi-Hole]
+prefix = http://
+url = www.kainth.tk:90/admin/
+description = Network Wide Ad-Blocker
+open_in = new_tab
+icon = assets/tools/pihole.png
+[Ghost]
+prefix = http://
+url = kainth.tk/ghost
+description = Self-Hosted Blog
+open_in = new_tab
+icon = assets/tools/ghost.png
+[Folding@Home]
+prefix = http://
+url = www.kainth.tk:7396/
+description = Protein Fold on your PC
+open_in = new_tab
+icon = assets/tools/folding.png
