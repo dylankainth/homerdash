@@ -1,5 +1,4 @@
 # Introduction
-
 **HomerDash aims to convert your homer YAML into a Dashmachine .ini config file, saving hours of re-writing.**
 
 [Homer](https://github.com/bastienwirtz/homer) is a simple static  *HOM*epage for your serv*ER*  to keep your services on hand, customisable from a simple  `.yaml`  configuration file.
@@ -20,11 +19,11 @@
  [homerdash](https://github.com/DylanK46/homerdash)/[main](https://github.com/DylanK46/homerdash/tree/master/main)/[**main.py**](https://github.com/DylanK46/homerdash/blob/master/main/main.py) 
  and run that python file
  5. Your output will be at
- [homerdash](https://github.com/DylanK46/homerdash)/[sampledata](https://github.com/DylanK46/homerdash/tree/master/sampledata)/[dashmachine](https://github.com/DylanK46/homerdash/tree/master/sampledata/dashmachine)/**config.ini**
+ [homerdash](https://github.com/DylanK46/homerdash)/[sampledata](https://github.com/DylanK46/homerdash/tree/master/sampledata)/[dashmachine](https://github.com/DylanK46/homerdash/tree/master/sampledata/dashmachine)/[**config.ini**](https://github.com/DylanK46/homerdash/blob/master/sampledata/dashmachine/config.ini)
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjE3MDI4NCwxNDYxMTk1MTIxLDcxNj
+eyJoaXN0b3J5IjpbMTczMzg3OTU4OSwxNDYxMTk1MTIxLDcxNj
 QyNzg3LDg3ODEwNzc0NiwtODk3NDM0ODU5XX0=
 -->
