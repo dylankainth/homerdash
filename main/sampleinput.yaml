@@ -1,0 +1,181 @@
+# Homepage configuration
+# See https://fontawesome.com/icons for icons options
+
+title: "Dylan's Server"
+subtitle: "Homer - kainth.tk:34234"
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: false
+
+# Optional theme customization
+theme: dark
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#ffdd57"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+
+links:
+  - name: "Heimdall"
+    icon: "fas fa-server"
+    url: "http://kainth.tk:4000"
+    target: "_blank" # optional html a tag target attribute
+  - name: "DashMachine"
+    icon: "fas fa-server"
+    url: "http://kainth.tk:5000"
+    target: "_blank" # optional html a tag target attribute
+
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+
+services:
+
+  - name: "Storage"
+    icon: "fas fa-folder"
+    items:
+     -  name: "Owncloud"
+        logo: "assets/tools/owncloud.png"
+        subtitle: "Self-Hosted Dropbox Alternative"
+        tag: ""
+        url: "http://www.kainth.tk:5006"
+     -  name: "Plex"
+        logo: "assets/tools/plex.png"
+        subtitle: "Self-Hosted Media Server"
+        tag: ""
+        url: "http://www.kainth.tk:32400"
+     -  name: "File Explorer"
+        logo: "assets/tools/filebrowser.png"
+        subtitle: "Server File Explorer"
+        tag: ""
+        url: "http://www.kainth.tk:32768"
+     -  name: "Jupyter"
+        logo: "assets/tools/jupyter.png"
+        subtitle: "Data Science IDE"
+        tag: ""
+        url: "http://kainth.tk:8888/"
+    #-  name: "Cloud 9"
+      # logo: "assets/tools/cloud9.png"
+      # subtitle: "Web-Based IDE"
+      # tag: ""
+      # url: "http://kainth.tk:32773/"
+
+  - name: "Utilities"
+    icon: "fas fa-tools"
+    items:
+     -  name: "Netdata"
+        logo: "assets/tools/netdata.png"
+        subtitle: "Real-Time Server Statistics Viewer"
+        tag: ""
+        url: "http://kainth.tk:19999/"
+        
+     -  name: "Theia"
+        logo: "assets/tools/theia.svg"
+        subtitle: "Visual Studio Code in a browser"
+        tag: ""
+        url: "http://kainth.tk:3000/"
+        
+     -  name: "Sky"
+        logo: "assets/tools/sky.png"
+        subtitle: "Router Settings"
+        tag: ""
+        url: "http://kainth.tk:9012/"
+        
+     -  name: "Portainer"
+        logo: "assets/tools/portainer.png"
+        subtitle: "Online Docker Container Manager"
+        tag: ""
+        url: "http://www.kainth.tk:9000"
+        
+     -  name: "Webmin"
+        logo: "assets/tools/webmin.png"
+        subtitle: "Online UNIX Server Manager"
+        tag: ""
+        url: "https://kainth.tk:10000"
+        
+     -  name: "Transmisisson"
+        logo: "assets/tools/transmission.png"
+        subtitle: "Free Bittorrent Client"
+        tag: ""
+        url: "http://kainth.tk:9091"
+        
+  - name: "Automation"
+    icon: "fas fa-magic"
+    items:
+     
+      - name: "Node-Red"
+        logo: "assets/tools/nodered.png"
+        subtitle: "IOT Flow Based Development Tool"
+        tag: ""
+        url: "http://www.kainth.tk:1880"
+        
+      - name: "n8n.io"
+        logo: "assets/tools/n8n.png"
+        subtitle: "Web-based Workflow Automation"
+        tag: ""
+        url: "http://kainth.tk:5678/"
+        
+  - name: "Minecraft"
+    icon: "fas fa-gamepad"
+    items:
+     -  name: "Dynmap"
+        logo: "assets/tools/Dynmap.png"
+        subtitle: "Minecraft Dynamic Map"
+        tag: ""
+        url: "http://kainth.tk:25570"
+
+  - name: "Smart Home"
+    icon: "fas fa-home"
+    items:
+     -  name: "Home Assistant"
+        logo: "assets/tools/homeassistant.png"
+        subtitle: "Home Automation Platform"
+        tag: ""
+        url: "https://www.kainth.tk:8123"
+     -  name: "Pi-Hole"
+        logo: "assets/tools/pihole.png"
+        subtitle: "Network Wide Ad-Blocker"
+        tag: ""
+        url: "http://www.kainth.tk:90/admin/"
+        
+  - name: "Miscellaneous"
+    icon: "fas fa-question-circle"
+    items:
+      - name: "Ghost"
+        logo: "assets/tools/ghost.png"
+        subtitle: "Self-Hosted Blog"
+        tag: ""
+        url: "http://kainth.tk/ghost"
+      - name: "Folding@Home"
+        logo: "assets/tools/folding.png"
+        subtitle: "Protein Fold on your PC"
+        tag: ""
+        url: "http://www.kainth.tk:7396/"
+        
+  
