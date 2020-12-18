@@ -11,14 +11,11 @@ def formdatastructure():
 
 formdatastructure()
 
-
 class write:
 
     #def init():
 
     def settings():
         sampleoutputfile = open("sampleoutput.yaml", "w")
-        sampleoutputfile.write("Woops! I have deleted the content!")
+        sampleoutputfile.write("[SETTINGS]")
         sampleoutputfile.close()
-
-write.settings()
