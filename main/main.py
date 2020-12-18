@@ -33,8 +33,15 @@ class write:
         sampleoutputfile.write(   convertdatastructure(   "background"          ,"https://www.colorhexa.com/"+datastructure["colors"]["dark"]["background"][1:]+".png"     ))
         sampleoutputfile.write("\n \n")
     
+    #def users():
+
+    def cards():
+        for name in datastructure["services"]:
+            print(name)
+
     def finish():
         sampleoutputfile.close()
 
-write.init()
-write.settings()
+#write.init()
+#write.settings()
+write.cards()
