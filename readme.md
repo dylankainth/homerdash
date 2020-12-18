@@ -6,8 +6,8 @@
 
 [Dashmachine](https://github.com/rmountjoy92/DashMachine) is another application bookmark dashboard, with fun features and is configurable from a `.ini` file.
 
-HomerDash is a python utility tool that allows the conversion of 
+**HomerDash** is a **python** utility tool that allows the conversion of **Homer `.yaml` files** to  Dashmachine `.ini` files.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTQ4NzM4OSwtODk3NDM0ODU5XX0=
+eyJoaXN0b3J5IjpbLTYxMDQyNTM1OSwtODk3NDM0ODU5XX0=
 -->
