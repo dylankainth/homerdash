@@ -17,9 +17,10 @@
  3. In that folder, open the file called [homerdash](https://github.com/DylanK46/homerdash)/[sampledata](https://github.com/DylanK46/homerdash/tree/master/sampledata)/[homer](https://github.com/DylanK46/homerdash/tree/master/sampledata/homer)/[**config.yml**](https://github.com/DylanK46/homerdash/blob/master/sampledata/homer/config.yml)
  and replace in your homer YAML.
  4. Head back up to 
+ [homerdash](https://github.com/DylanK46/homerdash)/[main](https://github.com/DylanK46/homerdash/tree/master/main)/**main.py**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEzNDI3MDUsNzE2NDI3ODcsODc4MT
-A3NzQ2LC04OTc0MzQ4NTldfQ==
+eyJoaXN0b3J5IjpbODY0NjY4OTY1LDcxNjQyNzg3LDg3ODEwNz
+c0NiwtODk3NDM0ODU5XX0=
 -->
