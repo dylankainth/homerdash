@@ -12,10 +12,19 @@ def formdatastructure():
 formdatastructure()
 
 class write:
+    
+    global sampleoutputfile
 
-    #def init():
+    def init():
+        global sampleoutputfile
+        sampleoutputfile = open("main/sampleoutput.yaml", "w")
 
-    def settings():
-        sampleoutputfile = open("sampleoutput.yaml", "w")
+    def settings(): 
         sampleoutputfile.write("[SETTINGS]")
+        
+    
+    def finish():
         sampleoutputfile.close()
+
+write.init()
+write.settings()
