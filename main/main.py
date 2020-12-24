@@ -59,7 +59,7 @@ class write:
                 sampleoutputfile.write(   convertdatastructure(   "url"               ,((urlparse(item["url"])).netloc)+((urlparse(item["url"])).path)))
                 sampleoutputfile.write(   convertdatastructure(   "description"               ,item["subtitle"]    ))
                 sampleoutputfile.write(   convertdatastructure(   "open_in"               , "new_tab"    ))
-                sampleoutputfile.write(   convertdatastructure(   "icon"               , "static/images/icons/"+(item["logo"]).lstrip("assets/tools/")    ))
+                sampleoutputfile.write(   convertdatastructure(   "icon"               , "static/images/"+(item["logo"]).lstrip("assets/tools/")    ))
                 sampleoutputfile.write(   convertdatastructure(   "sidebar_icon"               , "static/images/"+(item["logo"]).lstrip("assets/tools/")    ))
                 sampleoutputfile.write(   convertdatastructure(   "tags"               , classification["name"]))
                 #url queries, parameters and fragments are not supported, but they could be by ajusting the code above
