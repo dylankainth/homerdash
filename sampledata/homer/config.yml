@@ -43,11 +43,11 @@ colors:
 links:
   - name: "Heimdall"
     icon: "fas fa-server"
-    url: "http://kainth.tk:49172"
+    url: "https://example.com:49172"
     target: "_blank" # optional html a tag target attribute
   - name: "DashMachine"
     icon: "fas fa-server"
-    url: "http://kainth.tk:49161"
+    url: "https://example.com:49161"
     target: "_blank" # optional html a tag target attribute
 
 
@@ -79,12 +79,12 @@ services:
         logo: "assets/icons/jupyter.png"
         subtitle: "Data Science IDE"
         tag: ""
-        url: "http://kainth.tk:49167/"
+        url: "https://example.com:49167/"
     #-  name: "Cloud 9"
       # logo: "assets/icons/cloud9.png"
       # subtitle: "Web-Based IDE"
       # tag: ""
-      # url: "http://kainth.tk:32773/"
+      # url: "https://example.com:32773/"
 
   - name: "Utilities"
     icon: "fas fa-tools"
@@ -100,19 +100,19 @@ services:
         logo: "assets/icons/theia.svg"
         subtitle: "Visual Studio Code in a browser"
         tag: ""
-        url: "http://kainth.tk:49163/"
+        url: "https://example.com:49163/"
         
      -  name: "Pyload"
         logo: "assets/icons/pyload.png"
         subtitle: "Python-Based open-source download manager"
         tag: ""
-        url: "http://kainth.tk:49158/"
+        url: "https://example.com:49158/"
         
      -  name: "Sky"
         logo: "assets/icons/sky.png"
         subtitle: "Router Settings"
         tag: ""
-        url: "http://kainth.tk:9012/"
+        url: "https://example.com:9012/"
         
      -  name: "Portainer"
         logo: "assets/icons/portainer.png"
@@ -124,7 +124,7 @@ services:
         logo: "assets/icons/transmission.png"
         subtitle: "Free Bittorrent Client"
         tag: ""
-        url: "http://kainth.tk:49164"
+        url: "https://example.com:49164"
     
   - name: "Statistics"
     icon: "fas fa-chart-area"
@@ -133,7 +133,7 @@ services:
         logo: "assets/icons/netdata.png"
         subtitle: "Real-Time Server Statistics Viewer"
         tag: ""
-        url: "http://kainth.tk:49169/"
+        url: "https://example.com:49169/"
     
      -  name: "Grafana"
         logo: "assets/icons/grafana.png"
@@ -167,7 +167,7 @@ services:
         logo: "assets/icons/n8n.png"
         subtitle: "Web-based Workflow Automation"
         tag: ""
-        url: "http://kainth.tk:49166/"
+        url: "https://example.com:49166/"
         
   - name: "Minecraft"
     icon: "fas fa-gamepad"
@@ -176,7 +176,7 @@ services:
         logo: "assets/icons/Dynmap.png"
         subtitle: "Minecraft Dynamic Map"
         tag: ""
-        url: "http://kainth.tk:25570"
+        url: "https://example.com:25570"
 
   - name: "Smart Home"
     icon: "fas fa-home"
@@ -209,7 +209,7 @@ services:
         logo: "assets/icons/ghost.png"
         subtitle: "Self-Hosted Blog"
         tag: ""
-        url: "http://kainth.tk/ghost"
+        url: "https://example.com/ghost"
       - name: "Folding@Home"
         logo: "assets/icons/folding.png"
         subtitle: "Protein Fold on your PC"
